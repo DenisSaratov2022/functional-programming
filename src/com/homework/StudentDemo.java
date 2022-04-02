@@ -40,12 +40,12 @@ public class StudentDemo {
                 new Student("Ola", "Ivanova", 2, List.of(5, 5, 4, 4)),
                 new Student("Ira", "Olegrova", 1, List.of(5, 5, 4, 5)));
 
-        //   первое задание
-
-        students.stream()
-                .filter(student -> student.ratingList.size() > 3)
-                .collect(Collectors.groupingBy(Student::getCourse, Collectors.mapping(Collectors.averagingInt(Student::getRatingList))));
-
-        System.out.println(map)
+//        первое задание
+//
+//        students.stream()
+//                .filter(student -> student.ratingList.size() > 3)
+//                .collect(Collectors.groupingBy(Student::getCourse, Collectors.mapping(Collectors.averagingInt(Student::getRatingList))));
+//
+//        System.out.println(map)
     }
 }
