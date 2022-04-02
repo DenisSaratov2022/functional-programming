@@ -39,5 +39,5 @@ public class Student {
     public List<Integer> getRatingList() {
         return ratingList;
     }
-    //
+
 }

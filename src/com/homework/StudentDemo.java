@@ -47,6 +47,5 @@ public class StudentDemo {
 //                .collect(Collectors.groupingBy(Student::getCourse, Collectors.mapping(Collectors.averagingInt(Student::getRatingList))));
 //
 //        System.out.println(map)
-  //      System.out.println(map);
     }
 }
